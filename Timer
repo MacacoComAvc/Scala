@@ -1,0 +1,11 @@
+object Timer {
+  def umPorSegundo(callback: () => Unit) {
+    while (true) { callback(); Thread sleep 1000 }
+  }
+  def oTempoPassa() {
+    println("Nós estamos assistindo você!")
+  }
+  def main(args: Array[String]) {
+    umPorSegundo(oTempoPassa)
+  }
+}
