@@ -1,0 +1,8 @@
+
+object String {
+ val greeting: String = "Coé rapaziada!"
+
+ def main(args: Array[String]) {
+   println( greeting )
+ }
+}
