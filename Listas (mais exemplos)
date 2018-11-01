@@ -1,0 +1,10 @@
+object Lista {
+   def main(args: Array[String]) {
+      val personagens = "Peter Parker" :: ("Mary Jane" :: ("Harry Osborn" :: Nil))
+      val palmeiras = Nil
+      println( "Primeiro personagem: " + personagens.head )
+      println( "O restante dos personagens: " + personagens.tail )
+      println( "A lista 'Personagens' está vazia? " + personagens.isEmpty )
+      println( "O Palmeiras não tem mundial? " + palmeiras.isEmpty )
+   }
+}
