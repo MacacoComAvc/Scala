@@ -1,0 +1,11 @@
+var listaString = List("passa", "seu", "zapzap")
+var listaInt = List(3, 4, 2, 7)
+var listaDouble = List(3.5, 2, 6.7)
+var listaBoolean = List(true, true, false)
+var listaListas = List(List('a', 'b', 'c'), List('c', 'b', 'a'), List('a', 'c', 'b'))
+
+println(listaString)
+println(listaInt)
+println(listaDouble)
+println(listaBoolean)
+print(listaListas)
