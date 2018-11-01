@@ -1,0 +1,4 @@
+var  idade: Int  = 20;  
+if (idade > 18) {  
+    println ( "Maior de idade" )  
+}
