@@ -1,0 +1,9 @@
+object MainObject {  
+   def main(args: Array[String]) {  
+        for( a <- 1 until 10 ){  
+         println(a);  
+      }  
+   }  
+}
+
+//Usando (until), ele irá até o 9. Mas se usarmos (to) no lugar de (until), irá até 10.
