@@ -1,0 +1,10 @@
+object repeat {
+   def main(args: Array[String]) {
+      	var num = 10;
+
+      while( num < 20 ){
+         println( "Número:  " + num);
+         num = num + 1;
+      }
+   }
+}
