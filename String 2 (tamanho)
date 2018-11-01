@@ -1,0 +1,10 @@
+object String {
+ val greeting: String = "Coé rapaziada!"
+
+ def main(args: Array[String]) {
+   println( greeting )
+   var len = greeting.length();
+
+   println( "Tamanho da String é: " + len );
+ }
+}
