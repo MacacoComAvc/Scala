@@ -1,0 +1,8 @@
+object concat {
+   def main(args: Array[String]) {
+   var str1 = "Lá vem o homem macaco, ";
+ var str2 = "correndo atrás de mim";
+   var st = str1.concat(str2)
+   println( "A string concatenada é : " + st );
+   }
+}
