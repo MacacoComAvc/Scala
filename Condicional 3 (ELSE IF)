@@ -1,0 +1,17 @@
+object Demo {
+  def main(args: Array[String]) {
+    var homemAranha = "herói"
+    if( homemAranha == "herói" ){
+      println("Herói?")
+      println("Ava! Sério?");
+    } else if( homemAranha == "vilão" ){
+      println("Vilão?")
+      println("Por essa eu não esperava!");
+    } else if( homemAranha == "meu pai"){
+      println("Meu pai?")
+      println("Nem pai eu tenho!");
+    } else{
+      println("O Homem-Aranha é você!");
+    }
+  }
+}
